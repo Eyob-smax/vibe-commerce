@@ -4,34 +4,62 @@ Vibe Commerce is a simple e-commerce web application built with **React**, **Typ
 
 ---
 
-## 📸 Screenshots
+## Screenshots
+
+<div align="center">
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; max-width: 1200px; margin: 2rem auto;">
+    
+    <!-- Home Page -->
+    <div style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.1); transition: all 0.3s; border: 1px solid #e5e7eb;">
+      <img src="./screenshots/home.png" alt="Home Page" style="width: 100%; height: 220px; object-fit: cover; object-position: top;">
+      <div style="padding: 1rem; background: linear-gradient(to right, #f3e8ff, #fce7f3);">
+        <strong style="color: #7c3aed;">Home</strong> – Product Listing
+      </div>
+    </div>
+
+    <!-- Cart -->
+    <div style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.1); transition: all 0.3s; border: 1px solid #e5e7eb;">
+      <img src="./screenshots/cart.png" alt="Cart Preview" style="width: 100%; height: 220px; object-fit: cover; object-position: top;">
+      <div style="padding: 1rem; background: linear-gradient(to right, #fce7f3, #fef3c7);">
+        <strong style="color: #ec4899;">Cart</strong> – Manage Items
+      </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.1); transition: all 0.3s; border: 1px solid #e5e7eb;">
+      <img src="./screenshots/checkout.png" alt="Checkout Modal" style="width: 100%; height: 220px; object-fit: cover; object-position: top;">
+      <div style="padding: 1rem; background: linear-gradient(to right, #d1fae5, #bbf7d0);">
+        <strong style="color: #16a34a;">Checkout</strong> – Payment Flow
+      </div>
+    </div>
+
+    <!-- Receipt Modal -->
+    <div style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.1); transition: all 0.3s; border: 1px solid #e5e7eb;">
+      <img src="./screenshots/checkout.png" alt="Receipt Summary" style="width: 100%; height: 220px; object-fit: cover; object-position: top;">
+      <div style="padding: 1rem; background: linear-gradient(to right, #ccfbff, #a5f3fc);">
+        <strong style="color: #0891b2;">Receipt</strong> – Order Summary
+      </div>
+    </div>
+
+  </div>
+</div>
 
 > Replace the placeholders with real files inside `/public/screens/`
 
-### 🏠 Home (Product Listing)
-
-![Home Page](./public/screens/home.png)
-
-### 🛍️ Cart
-
-![Cart Preview](./screenshots/cart.png)
-
-### 💳 Checkout Modal
-
-![Checkout Modal](./screenshots/checkout.png)
-
-### ✅ Receipt Modal
-
-![Receipt Summary](./screenshots/checkout.png)
-
 ---
 
-## 🎥 Demo / Screen Recording
+## Demo / Screen Recording
 
-> Upload your recording to YouTube, Loom, or GitHub and link it here.
-
-**Video Demo:**  
-![Video](https://github.com/Eyob-smax/vibe-ecommerce/blob/main/screenshots/demo.mp4)
+<div align="center" style="margin: 2.5rem 0;">
+  <video controls style="max-width: 100%; border-radius: 16px; box-shadow: 0 15px 30px rgba(0,0,0,0.15); border: 1px solid #e5e7eb;" poster="./screenshots/home.png">
+    <source src="https://github.com/Eyob-smax/vibe-ecommerce/raw/main/screenshots/demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </source>
+  </video>
+  <p style="margin-top: 0.75rem; color: #6b7280; font-size: 0.9rem;">
+    Full flow: browse → cart → checkout → receipt
+  </p>
+</div>
 
 ---
 
