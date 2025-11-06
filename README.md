@@ -14,15 +14,15 @@ Vibe Commerce is a simple e-commerce web application built with **React**, **Typ
 
 ### 🛍️ Cart
 
-![Cart Preview](./public/screens/cart.png)
+![Cart Preview](./screenshots/cart.png)
 
 ### 💳 Checkout Modal
 
-![Checkout Modal](./public/screens/checkout.png)
+![Checkout Modal](./screenshots/checkout.png)
 
 ### ✅ Receipt Modal
 
-![Receipt Summary](./public/screens/receipt.png)
+![Receipt Summary](./screenshots/checkout.png)
 
 ---
 
@@ -31,7 +31,7 @@ Vibe Commerce is a simple e-commerce web application built with **React**, **Typ
 > Upload your recording to YouTube, Loom, or GitHub and link it here.
 
 **Video Demo:**  
-![Video](https://github.com/YourName/vibe-commerce/blob/main/screenshots/demo.mp4)
+![Video](https://github.com/Eyob-smax/vibe-commerce/blob/main/screenshots/demo.mp4)
 
 ---
 
