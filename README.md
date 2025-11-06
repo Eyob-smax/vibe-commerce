@@ -31,7 +31,7 @@ Vibe Commerce is a simple e-commerce web application built with **React**, **Typ
 > Upload your recording to YouTube, Loom, or GitHub and link it here.
 
 **Video Demo:**  
-![Video](https://github.com/Eyob-smax/vibe-commerce/blob/main/screenshots/demo.mp4)
+![Video](https://github.com/Eyob-smax/vibe-ecommerce/blob/main/screenshots/demo.mp4)
 
 ---
 
