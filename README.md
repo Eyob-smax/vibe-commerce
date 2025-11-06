@@ -4,36 +4,64 @@ Vibe Commerce is a simple e-commerce web application built with **React**, **Typ
 
 ---
 
-## Table of Contents
+## 📸 Screenshots
 
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [API Endpoints](#api-endpoints)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+> Replace the placeholders with real files inside `/public/screens/`
 
----
+### 🏠 Home (Product Listing)
 
-## Features
+![Home Page](./public/screens/home.png)
 
-- Browse a catalog of products
-- Add items to cart and update quantities
-- Remove items from cart
-- Checkout process with customer details
-- Order receipt generation
-- Responsive design
+### 🛍️ Cart
+
+![Cart Preview](./public/screens/cart.png)
+
+### 💳 Checkout Modal
+
+![Checkout Modal](./public/screens/checkout.png)
+
+### ✅ Receipt Modal
+
+![Receipt Summary](./public/screens/receipt.png)
 
 ---
 
-## Tech Stack
+## 🎥 Demo / Screen Recording
 
-- **Frontend:** React, TypeScript, Tailwind CSS
-- **Backend:** Node.js, Express.js, Prisma
-- **Database:** PostgreSQL
-- **Other Libraries:** Lucide Icons, ShadCn, React Hooks, Toast notifications,
+> Upload your recording to YouTube, Loom, or GitHub and link it here.
+
+**Video Demo:**  
+![Video](https://github.com/YourName/vibe-commerce/blob/main/screenshots/demo.mp4)
+
+---
+
+## ✨ Features
+
+✅ Fetch products from backend  
+✅ Add to cart / update quantity / remove items  
+✅ Persistent server cart sessions  
+✅ Checkout flow with receipt output  
+✅ Stock validation  
+✅ Order history stored in DB  
+✅ Beautiful UI using shadcn + Tailwind
+
+---
+
+## 🧰 Tech Stack
+
+### Frontend
+
+- React + TypeScript
+- Vite
+- React Hooks
+- shadcn/ui
+- TailwindCSS
+
+### Backend
+
+- Node.js + Express
+- Prisma ORM
+- PostgreSQL
 
 ---
 

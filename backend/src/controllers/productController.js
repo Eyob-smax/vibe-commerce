@@ -92,6 +92,7 @@ export const deleteProduct = async (req, res) => {
 };
 export const deleteAllProducts = async (req, res) => {
   try {
+    await prisma.orderItem.deleteMany({});
     await prisma.product.deleteMany({});
     res.status(200).json({ success: true, message: "All products deleted" });
   } catch (err) {
