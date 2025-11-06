@@ -56,7 +56,6 @@ export interface ApiResponse<T> {
   message?: string;
 }
 
-// functions
 export type UpdateQuantityFn = (cartItemId: string, quantity: number) => void;
 export type RemoveItemFn = (cartItemId: string) => void;
 export type CheckoutFn = (

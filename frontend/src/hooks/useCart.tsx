@@ -3,7 +3,6 @@ import { useToast } from "@/hooks/use-toast";
 import { apiGet, apiPost, apiPatch, apiDelete } from "@/lib/api";
 import { CartItem } from "@/lib/types";
 
-// Retrieve or create cart session
 const getSessionId = () => {
   let sessionId = localStorage.getItem("cart_session_id");
   if (!sessionId) {
